@@ -7,7 +7,7 @@ export default function handler(req, res) {
 
     if (req.method === "POST") {
         const body = req.body;
-        const amount = Number(body ? .amount ? ? 0);
+        const amount = Number(body ? .amount ?? 0);
 
         if (!body || !body.description || amount <= 0) {
             return res.status(400).json({ message: "Invalid transaction payload" });
