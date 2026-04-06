@@ -10,7 +10,7 @@ const transactions = [
 const getTransactions = () => transactions;
 
 const addTransaction = (tx) => {
-    const amount = Number(tx.amount ? ? 0);
+    const amount = Number(tx.amount ?? 0);
     const newTx = {
         id: Math.random().toString(36).substr(2, 9),
         date: tx.date || new Date().toISOString().split("T")[0],
