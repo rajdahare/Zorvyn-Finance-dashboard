@@ -100,10 +100,4 @@ To keep the application lightweight yet functional, data is persisted in a `data
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-*Built with ❤️ by Zorvyn Team*
+*Built with ❤️ by Raj*
